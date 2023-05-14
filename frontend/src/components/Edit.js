@@ -6,8 +6,8 @@ import axios, * as others from 'axios';
 
 const Edit = () => {
 
-    // const [getuserdata, setUserdata] = useState([]);
-    // console.log(getuserdata);
+    const [getuserdata, setUserdata] = useState([]);
+    console.log(getuserdata);
 
    const {updata, setUPdata} = useContext(updatedata)
 
